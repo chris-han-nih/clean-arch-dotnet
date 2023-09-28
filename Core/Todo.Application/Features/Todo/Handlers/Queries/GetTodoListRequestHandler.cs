@@ -7,12 +7,12 @@ using Todo.Application.Persistence.Contracts;
 
 namespace Todo.Application.Features.Todo.Handlers.Queries;
 
-public class GetTodoListRequestHandler: IRequestHandler<GetTodoListRequest, List<TodoDto>>
+public class GetTodoListHandler: IRequestHandler<GetTodoListRequest, List<TodoDto>>
 {
     private readonly ITodoRepository _todoRepository;
     private readonly IMapper _mapper;
 
-    public GetTodoListRequestHandler(ITodoRepository todoRepository, IMapper mapper)
+    public GetTodoListHandler(ITodoRepository todoRepository, IMapper mapper)
     {
         _todoRepository = todoRepository;
         _mapper = mapper;
