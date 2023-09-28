@@ -2,6 +2,7 @@ using AutoMapper;
 using MediatR;
 using Todo.Application.DTOs;
 using Todo.Application.Features.Todo.Requests;
+using Todo.Application.Features.Todo.Requests.Queries;
 using Todo.Application.Persistence.Contracts;
 
 namespace Todo.Application.Features.Todo.Handlers.Queries;

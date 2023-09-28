@@ -26,6 +26,7 @@
 
   <ItemGroup>
     <Folder Include="Features\Todo\Handlers\Commands\" />
+    <Folder Include="Features\Todo\Requests\Commands\" />
   </ItemGroup>
 
 </Project>
